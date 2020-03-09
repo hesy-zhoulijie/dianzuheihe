@@ -39,12 +39,14 @@ int main(int argc, char const *argv[]) {
     case 1:{
       cout<<yigejiexianzhudeheihe<<endl;
       cout<<"AB="<<dianzuzuzhi[0]<<"ohm(s)"<<endl;
+      break;
     }
     case 2:{
       cout<<lianggejiexianzhuchuanliandeheihe<<endl;
       cout<<"AB="<<dianzuzuzhi[0]+dianzuzuzhi[1]<<"ohm(s)"<<endl;
       cout<<lianggejiexianzhubingliandeheihe<<endl;
       cout<<"AB="<<fixed<<setprecision(3)<<calc(dianzuzuzhi[0],dianzuzuzhi[1])<<"ohm(s)"<<endl;
+      break;
     }
   }
   return 0;
