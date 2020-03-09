@@ -51,3 +51,27 @@ int main(int argc, char const *argv[]) {
 }
 
 ```
+## output
+```
+please input the number and the count of the dianzu
+2 2
+enter the size of the dianzu
+4 7
+   _________________
+  |  ____    ____   |
+A-|-|____|--|____|--|-B
+  |_________________|
+
+AB=11ohm(s)
+   _________________
+  |      ____       |
+  |  ---|____|----  |
+A-|-|    ____     |-|-B
+  |  ---|____|----  |
+  |_________________|
+AB=2.000ohm(s)
+
+--------------------------------
+Process exited after 2.879 seconds with return value 0
+请按任意键继续. . .
+```
